@@ -114,6 +114,8 @@ if(map_data !== null && map_data.length !==0){
       $("#myPast").append(html_past);
       $("#name").val(""); // テキストボックスを空にする
       //$("#now_posi").off("click");
+      //再読み込み
+      window.location.reload();
     });
 
     // 選択イベント
