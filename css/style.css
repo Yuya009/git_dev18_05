@@ -1,0 +1,50 @@
+
+.view_map {
+    width: 45vw;
+    height: 50vw;
+    margin-right: 10px;
+    box-shadow: 2px 2px 4px;
+}
+.vp {
+    width: 45vw;
+    height: 6vw;
+    box-shadow: 2px 2px 4px;
+}
+.view_all{
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+.view_past {
+    width: 45vw;
+    height: 43.25vw;
+    box-shadow: 2px 2px 4px;
+    margin: 10px 0 0 0;
+    overflow-y: scroll;
+}
+.view_past p{
+    padding: 5px 0 0 5px;
+}
+.view_lat_lon {
+    margin: 5px 0 0 5px;
+    cursor: pointer;
+}
+.view_lat_lon:hover {
+    box-shadow: 2px 2px 4px;
+}
+.view_past_post:hover {
+    box-shadow: 2px 2px 4px;
+}
+.view_posi {
+    margin: 5px 0 0 5px;
+}
+.view_past_post {
+    margin: 10px 0 0 5px;
+    cursor: pointer;
+}
+.view_past_post p {
+    margin: 5px 0 0 5px;
+    cursor: pointer;
+}
+.btn_k{
+    padding: 10px 0 0 10px;
+}
